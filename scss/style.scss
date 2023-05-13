@@ -1,0 +1,24 @@
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
+);
+Body{margin:0%; padding: 0%;}
+section{display:flex; width: 600px; height:430px;}
+section img{width: 0px; flex-grow: 1; object-fit: cover; opacity: .8; transition: 5s ease;}
+section img:hover{cursor: crosshair; width: 300px; opacity: 1; filter: contrast(120%);}
+.enlaces{font-family:Arial; font-weight:bold; font-size:20px;display:inline; padding-left: 0px;padding-right:0px;; align-items: center;position: absolute; left:25%; bottom: 500px;}
+.enlaces a{color: rgb(255, 255, 255);}
+.separador{color:rgb(253, 246, 246);}
+li{display: inline;padding-left:5px; padding-right: 50px;}
+.logo{background-color:  black; height: 140px;}
+.titulo{position: absolute; left: 40%; top:1px; color: white;}
+.info{background-color: #DBA736 ; display: flex; flex-grow: 5; margin: 0%; padding: 0%;}
+.info1{padding-left: 15px;}
+.info2{padding-left: 70px;}
+
+
+
